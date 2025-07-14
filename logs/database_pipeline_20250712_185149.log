@@ -1,0 +1,23 @@
+2025-07-12 18:51:49,591 - database - INFO - Database create_tables on all - 5 records in 0.00s
+2025-07-12 18:51:49,593 - database - INFO - Database create_indexes on all - 10 records in 0.00s
+2025-07-12 18:51:50,542 - database - INFO - Database insert on soil_samples - 7,012 records in 0.77s
+2025-07-12 18:51:56,905 - database - INFO - Database insert on countries - 9 records in 0.01s
+2025-07-12 18:51:56,934 - database - DEBUG - Query: 
+                SELECT 
+                    id, raw_data_id, latitude, longitude, soc_percent, 
+   ... - Duration: 0.025s
+2025-07-12 18:51:56,935 - database - DEBUG - Query: 
+                SELECT 
+                    id, name, iso_code, boundary_geojson, 
+                ... - Duration: 0.001s
+2025-07-12 18:51:58,669 - database - INFO - Database update on soil_samples - 6,389 records in 0.06s
+2025-07-12 18:52:01,155 - database - DEBUG - Query: 
+                SELECT 
+                    id, raw_data_id, latitude, longitude, soc_percent, 
+   ... - Duration: 0.034s
+2025-07-12 18:52:01,156 - database - DEBUG - Query: 
+                SELECT 
+                    id, name, iso_code, boundary_geojson, 
+                ... - Duration: 0.001s
+2025-07-12 18:52:01,199 - database - INFO - Database insert on analysis_results - 8 records in 0.01s
+2025-07-12 18:52:01,212 - database - INFO - Database connection: closed - data\db\soil_analysis.db

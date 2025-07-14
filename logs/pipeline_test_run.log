@@ -1,0 +1,13 @@
+2025-07-12 12:14:36,414 - pipeline - INFO - Pipeline started - Run ID: test_run
+2025-07-12 12:14:36,421 - pipeline - INFO - Start time: 2025-07-12 12:14:36
+2025-07-12 12:14:36,421 - pipeline - INFO - Stage: Test Stage - Testing logging functionality
+2025-07-12 12:14:36,421 - pipeline - DEBUG - Stage 'Test Stage' started at 12:14:36
+2025-07-12 12:14:36,421 - pipeline - INFO - Loaded 1,000 records into test_table in 2.50s
+2025-07-12 12:14:36,421 - pipeline - INFO - PERFORMANCE - data_load_test_table: 2500.00ms - records: 1,000
+2025-07-12 12:14:36,421 - pipeline - INFO - PERFORMANCE - test_operation: 1500.00ms - records: 1,000
+2025-07-12 12:14:36,421 - pipeline - INFO - Stage completed: Test Stage (0.0s) - records: 1,000, duration: 2.5
+2025-07-12 12:14:36,421 - pipeline - ERROR - Error in Test Stage: Test error - Context: Test context
+2025-07-12 12:14:36,421 - pipeline - INFO - Pipeline completed successfully
+2025-07-12 12:14:36,421 - pipeline - INFO - Total execution time: 0.0s
+2025-07-12 12:14:36,421 - pipeline - INFO - Records processed: 1,000
+2025-07-12 12:14:36,421 - pipeline - INFO - Countries analyzed: 5

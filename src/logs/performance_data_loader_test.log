@@ -1,0 +1,3 @@
+2025-07-12 12:26:29,937 - performance - INFO - PERFORMANCE - db_create_tables_all: 235.48ms - records: 5
+2025-07-12 12:26:30,280 - performance - INFO - PERFORMANCE - db_create_indexes_all: 343.18ms - records: 10
+2025-07-12 12:26:30,280 - performance - INFO - PERFORMANCE - Database Initialization: 658.68ms - database: data\db\test.db

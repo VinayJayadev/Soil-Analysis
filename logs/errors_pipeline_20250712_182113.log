@@ -1,0 +1,10 @@
+2025-07-12 18:21:21,977 - errors - ERROR - Error in Query: no such column: updated_at - Context: Failed to get soil samples
+2025-07-12 18:21:21,978 - errors - ERROR - Error details: {
+  "timestamp": "2025-07-12T18:21:21.977496",
+  "run_id": "pipeline_20250712_182113",
+  "stage": "Query",
+  "context": "Failed to get soil samples",
+  "error_type": "OperationalError",
+  "error_message": "no such column: updated_at",
+  "traceback": "Traceback (most recent call last):\n  File \"E:\\seqana_swe_challenge\\seqana_swe_challenge\\src\\database_manager.py\", line 468, in get_soil_samples\n    cursor.execute(query)\nsqlite3.OperationalError: no such column: updated_at\n"
+}

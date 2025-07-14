@@ -1,0 +1,25 @@
+2025-07-12 15:19:54,166 - database - INFO - Database create_tables on all - 5 records in 0.01s
+2025-07-12 15:19:54,168 - database - INFO - Database create_indexes on all - 10 records
+2025-07-12 15:19:54,170 - database - INFO - Database connection: closed - data\db\soil_analysis.db
+2025-07-12 15:20:17,687 - database - INFO - Database create_tables on all - 5 records
+2025-07-12 15:20:17,687 - database - INFO - Database create_indexes on all - 10 records
+2025-07-12 15:20:17,695 - database - INFO - Database connection: closed - data\db\soil_analysis.db
+2025-07-12 15:22:00,503 - database - INFO - Database create_tables on all - 5 records in 0.01s
+2025-07-12 15:22:00,503 - database - INFO - Database create_indexes on all - 10 records
+2025-07-12 15:22:00,736 - database - INFO - Database connection: closed - data\db\soil_analysis.db
+2025-07-12 15:22:46,850 - database - INFO - Database create_tables on all - 5 records
+2025-07-12 15:22:46,851 - database - INFO - Database create_indexes on all - 10 records
+2025-07-12 15:22:46,945 - database - INFO - Database insert on countries - 3 records in 0.02s
+2025-07-12 15:22:46,948 - database - INFO - Database connection: closed - data\db\soil_analysis.db
+2025-07-12 15:38:39,454 - database - INFO - Database create_tables on all - 5 records
+2025-07-12 15:38:39,454 - database - INFO - Database create_indexes on all - 10 records
+2025-07-12 15:38:42,467 - database - INFO - Database insert on countries - 3 records in 0.01s
+2025-07-12 15:38:42,470 - database - INFO - Database connection: closed - data\db\soil_analysis.db
+2025-07-12 15:50:03,378 - database - INFO - Database create_tables on all - 5 records
+2025-07-12 15:50:03,378 - database - INFO - Database create_indexes on all - 10 records
+2025-07-12 15:50:06,142 - database - INFO - Database insert on countries - 3 records in 0.01s
+2025-07-12 15:50:06,144 - database - INFO - Database connection: closed - data\db\soil_analysis.db
+2025-07-12 15:52:01,442 - database - INFO - Database create_tables on all - 5 records
+2025-07-12 15:52:01,442 - database - INFO - Database create_indexes on all - 10 records
+2025-07-12 15:52:03,933 - database - INFO - Database insert on countries - 3 records in 0.00s
+2025-07-12 15:52:03,933 - database - INFO - Database connection: closed - data\db\soil_analysis.db

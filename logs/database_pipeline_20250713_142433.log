@@ -1,0 +1,8 @@
+2025-07-13 14:24:33,592 - database - INFO - Database create_tables on all - 5 records in 0.01s
+2025-07-13 14:24:33,592 - database - INFO - Database create_indexes on all - 10 records
+2025-07-13 14:24:35,454 - database - INFO - Database insert on soil_samples - 7,012 records in 0.79s
+2025-07-13 14:24:35,487 - database - DEBUG - Query: 
+                SELECT 
+                    id, raw_data_id, latitude, longitude, soc_percent, 
+   ... - Duration: 0.030s
+2025-07-13 14:24:41,339 - database - INFO - Database connection: closed - data\db\soil_analysis.db

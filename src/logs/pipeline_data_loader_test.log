@@ -1,0 +1,12 @@
+2025-07-12 12:26:29,617 - pipeline - INFO - Pipeline started - Run ID: data_loader_test
+2025-07-12 12:26:29,618 - pipeline - INFO - Start time: 2025-07-12 12:26:29
+2025-07-12 12:26:29,622 - pipeline - INFO - Stage: Database Initialization - Creating database schema
+2025-07-12 12:26:29,623 - pipeline - DEBUG - Stage 'Database Initialization' started at 12:26:29
+2025-07-12 12:26:29,937 - pipeline - INFO - Database tables created successfully
+2025-07-12 12:26:30,280 - pipeline - INFO - Database indexes created successfully
+2025-07-12 12:26:30,280 - pipeline - INFO - Stage completed: Database Initialization (0.7s) - database: data\db\test.db
+2025-07-12 12:26:30,280 - pipeline - INFO - Stage: Data Loading - Loading soil samples from data/eu_wosis_points.fgb
+2025-07-12 12:26:30,280 - pipeline - DEBUG - Stage 'Data Loading' started at 12:26:30
+2025-07-12 12:26:30,280 - pipeline - DEBUG - Loading soil samples from: data/eu_wosis_points.fgb
+2025-07-12 12:26:32,178 - pipeline - ERROR - Error in Data Loading: data/eu_wosis_points.fgb: No such file or directory - Context: Failed to load soil data from data/eu_wosis_points.fgb
+2025-07-12 12:26:32,247 - pipeline - ERROR - Error in Data Loading: data/eu_wosis_points.fgb: No such file or directory - Context: Data loading and storage failed

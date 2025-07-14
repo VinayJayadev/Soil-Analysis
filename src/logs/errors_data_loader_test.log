@@ -1,0 +1,20 @@
+2025-07-12 12:26:32,193 - errors - ERROR - Error in Data Loading: data/eu_wosis_points.fgb: No such file or directory - Context: Failed to load soil data from data/eu_wosis_points.fgb
+2025-07-12 12:26:32,246 - errors - ERROR - Error details: {
+  "timestamp": "2025-07-12T12:26:32.193952",
+  "run_id": "data_loader_test",
+  "stage": "Data Loading",
+  "context": "Failed to load soil data from data/eu_wosis_points.fgb",
+  "error_type": "DataSourceError",
+  "error_message": "data/eu_wosis_points.fgb: No such file or directory",
+  "traceback": "Traceback (most recent call last):\n  File \"E:\\seqana_swe_challenge\\seqana_swe_challenge\\src\\data_loader.py\", line 48, in load_soil_data\n    gdf = gpd.read_file(file_path)\n  File \"C:\\Users\\vinay\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\geopandas\\io\\file.py\", line 316, in _read_file\n    return _read_file_pyogrio(\n  File \"C:\\Users\\vinay\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\geopandas\\io\\file.py\", line 576, in _read_file_pyogrio\n    return pyogrio.read_dataframe(path_or_bytes, bbox=bbox, **kwargs)\n  File \"C:\\Users\\vinay\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\pyogrio\\geopandas.py\", line 275, in read_dataframe\n    result = read_func(\n  File \"C:\\Users\\vinay\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\pyogrio\\raw.py\", line 198, in read\n    return ogr_read(\n  File \"pyogrio\\\\_io.pyx\", line 1293, in pyogrio._io.ogr_read\n  File \"pyogrio\\\\_io.pyx\", line 232, in pyogrio._io.ogr_open\npyogrio.errors.DataSourceError: data/eu_wosis_points.fgb: No such file or directory\n"
+}
+2025-07-12 12:26:32,248 - errors - ERROR - Error in Data Loading: data/eu_wosis_points.fgb: No such file or directory - Context: Data loading and storage failed
+2025-07-12 12:26:32,249 - errors - ERROR - Error details: {
+  "timestamp": "2025-07-12T12:26:32.248696",
+  "run_id": "data_loader_test",
+  "stage": "Data Loading",
+  "context": "Data loading and storage failed",
+  "error_type": "DataSourceError",
+  "error_message": "data/eu_wosis_points.fgb: No such file or directory",
+  "traceback": "Traceback (most recent call last):\n  File \"E:\\seqana_swe_challenge\\seqana_swe_challenge\\src\\data_loader.py\", line 205, in load_and_store_data\n    df = self.load_soil_data(file_path)\n  File \"E:\\seqana_swe_challenge\\seqana_swe_challenge\\src\\data_loader.py\", line 48, in load_soil_data\n    gdf = gpd.read_file(file_path)\n  File \"C:\\Users\\vinay\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\geopandas\\io\\file.py\", line 316, in _read_file\n    return _read_file_pyogrio(\n  File \"C:\\Users\\vinay\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\geopandas\\io\\file.py\", line 576, in _read_file_pyogrio\n    return pyogrio.read_dataframe(path_or_bytes, bbox=bbox, **kwargs)\n  File \"C:\\Users\\vinay\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\pyogrio\\geopandas.py\", line 275, in read_dataframe\n    result = read_func(\n  File \"C:\\Users\\vinay\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python310\\site-packages\\pyogrio\\raw.py\", line 198, in read\n    return ogr_read(\n  File \"pyogrio\\\\_io.pyx\", line 1293, in pyogrio._io.ogr_read\n  File \"pyogrio\\\\_io.pyx\", line 232, in pyogrio._io.ogr_open\npyogrio.errors.DataSourceError: data/eu_wosis_points.fgb: No such file or directory\n"
+}

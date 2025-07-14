@@ -1,0 +1,10 @@
+2025-07-12 12:14:36,421 - errors - ERROR - Error in Test Stage: Test error - Context: Test context
+2025-07-12 12:14:36,421 - errors - ERROR - Error details: {
+  "timestamp": "2025-07-12T12:14:36.421922",
+  "run_id": "test_run",
+  "stage": "Test Stage",
+  "context": "Test context",
+  "error_type": "ValueError",
+  "error_message": "Test error",
+  "traceback": "Traceback (most recent call last):\n  File \"E:\\seqana_swe_challenge\\seqana_swe_challenge\\src\\logger.py\", line 351, in <module>\n    raise ValueError(\"Test error\")\nValueError: Test error\n"
+}

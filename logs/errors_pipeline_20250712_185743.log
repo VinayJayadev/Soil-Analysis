@@ -1,0 +1,10 @@
+2025-07-12 18:57:50,177 - errors - ERROR - Error in Data Loading: FOREIGN KEY constraint failed - Context: Countries insertion failed
+2025-07-12 18:57:50,178 - errors - ERROR - Error details: {
+  "timestamp": "2025-07-12T18:57:50.177478",
+  "run_id": "pipeline_20250712_185743",
+  "stage": "Data Loading",
+  "context": "Countries insertion failed",
+  "error_type": "IntegrityError",
+  "error_message": "FOREIGN KEY constraint failed",
+  "traceback": "Traceback (most recent call last):\n  File \"E:\\seqana_swe_challenge\\seqana_swe_challenge\\src\\database_manager.py\", line 256, in insert_countries\n    cursor.executemany(\"\"\"\nsqlite3.IntegrityError: FOREIGN KEY constraint failed\n"
+}

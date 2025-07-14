@@ -1,0 +1,138 @@
+2025-07-12 15:19:54,152 - pipeline - INFO - Pipeline started - Run ID: overpass_integration_test
+2025-07-12 15:19:54,152 - pipeline - INFO - Start time: 2025-07-12 15:19:54
+2025-07-12 15:19:54,152 - pipeline - INFO - Stage: Database Initialization - Creating database schema
+2025-07-12 15:19:54,152 - pipeline - DEBUG - Stage 'Database Initialization' started at 15:19:54
+2025-07-12 15:19:54,168 - pipeline - INFO - Database tables created successfully
+2025-07-12 15:19:54,168 - pipeline - INFO - Database indexes created successfully
+2025-07-12 15:19:54,168 - pipeline - INFO - Stage completed: Database Initialization (0.0s) - database: data\db\soil_analysis.db
+2025-07-12 15:20:17,687 - pipeline - INFO - Pipeline started - Run ID: overpass_integration_test
+2025-07-12 15:20:17,687 - pipeline - INFO - Start time: 2025-07-12 15:20:17
+2025-07-12 15:20:17,687 - pipeline - INFO - Stage: Database Initialization - Creating database schema
+2025-07-12 15:20:17,687 - pipeline - DEBUG - Stage 'Database Initialization' started at 15:20:17
+2025-07-12 15:20:17,687 - pipeline - INFO - Database tables created successfully
+2025-07-12 15:20:17,693 - pipeline - INFO - Database indexes created successfully
+2025-07-12 15:20:17,693 - pipeline - INFO - Stage completed: Database Initialization (0.0s) - database: data\db\soil_analysis.db
+2025-07-12 15:22:00,495 - pipeline - INFO - Pipeline started - Run ID: overpass_integration_test
+2025-07-12 15:22:00,495 - pipeline - INFO - Start time: 2025-07-12 15:22:00
+2025-07-12 15:22:00,495 - pipeline - INFO - Stage: Database Initialization - Creating database schema
+2025-07-12 15:22:00,495 - pipeline - DEBUG - Stage 'Database Initialization' started at 15:22:00
+2025-07-12 15:22:00,503 - pipeline - INFO - Database tables created successfully
+2025-07-12 15:22:00,507 - pipeline - INFO - Database indexes created successfully
+2025-07-12 15:22:00,507 - pipeline - INFO - Stage completed: Database Initialization (0.0s) - database: data\db\soil_analysis.db
+2025-07-12 15:22:00,508 - pipeline - INFO - Starting country boundaries fetch from Overpass API
+2025-07-12 15:22:00,508 - pipeline - DEBUG - Overpass query: area["ISO3166-1"="DE"]["admin_level"="2"]->.country_DE;
+(way["admin_level"="2"]["ISO3166-1"="DE"];relation["admin_level"="2"]["ISO3166-1"="DE"];)->.country_DE;
+area["ISO3166-1"="FR"]["admin_level"="2"]->.country_FR;
+(way["admin_level"="2"]["ISO3166-1"="FR"];relation["admin_level"="2"]["ISO3166-1"="FR"];)->.country_FR;
+area["ISO3166-1"="IT"]["admin_level"="2"]->.country_IT;
+(way["admin_level"="2"]["ISO3166-1"="IT"];relation["admin_level"="2"]["ISO3166-1"="IT"];)->.country_IT;
+[out:json][timeout:300];
+2025-07-12 15:22:00,508 - pipeline - INFO - Making Overpass API request (attempt 1/3)
+2025-07-12 15:22:00,736 - pipeline - ERROR - Overpass API request failed with status 400: <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" lang="en"/>
+  <title>OSM3S Response</title>
+</head>
+<body>
+
+<p>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</p>
+<p><strong style="color:#FF0000">Error</strong>: line 7: parse error: Unknown type &quot;[&quot; </p>
+<p><strong style="color:#FF0000">Error</strong>: line 7: parse error: An empty query is not allowed </p>
+<p><strong style="color:#FF0000">Error</strong>: line 7: parse error: ';' expected - 'out' found. </p>
+
+</body>
+</html>
+
+2025-07-12 15:22:46,848 - pipeline - INFO - Pipeline started - Run ID: overpass_integration_test
+2025-07-12 15:22:46,848 - pipeline - INFO - Start time: 2025-07-12 15:22:46
+2025-07-12 15:22:46,849 - pipeline - INFO - Stage: Database Initialization - Creating database schema
+2025-07-12 15:22:46,849 - pipeline - DEBUG - Stage 'Database Initialization' started at 15:22:46
+2025-07-12 15:22:46,850 - pipeline - INFO - Database tables created successfully
+2025-07-12 15:22:46,851 - pipeline - INFO - Database indexes created successfully
+2025-07-12 15:22:46,851 - pipeline - INFO - Stage completed: Database Initialization (0.0s) - database: data\db\soil_analysis.db
+2025-07-12 15:22:46,856 - pipeline - INFO - Starting country boundaries fetch from Overpass API
+2025-07-12 15:22:46,898 - pipeline - INFO - Successfully created GeoDataFrame with 3 countries
+2025-07-12 15:22:46,925 - pipeline - INFO - Saving 3 countries to database
+2025-07-12 15:22:46,946 - pipeline - INFO - Loaded 3 records into countries in 0.02s
+2025-07-12 15:22:46,947 - pipeline - INFO - Successfully saved 3 countries to database
+2025-07-12 15:38:39,454 - pipeline - INFO - Pipeline started - Run ID: overpass_integration_test
+2025-07-12 15:38:39,454 - pipeline - INFO - Start time: 2025-07-12 15:38:39
+2025-07-12 15:38:39,454 - pipeline - INFO - Stage: Database Initialization - Creating database schema
+2025-07-12 15:38:39,454 - pipeline - DEBUG - Stage 'Database Initialization' started at 15:38:39
+2025-07-12 15:38:39,454 - pipeline - INFO - Database tables created successfully
+2025-07-12 15:38:39,457 - pipeline - INFO - Database indexes created successfully
+2025-07-12 15:38:39,457 - pipeline - INFO - Stage completed: Database Initialization (0.0s) - database: data\db\soil_analysis.db
+2025-07-12 15:38:39,457 - pipeline - INFO - Starting country boundaries fetch from Overpass API
+2025-07-12 15:38:39,457 - pipeline - DEBUG - Overpass query: [out:json][timeout:300];
+(
+relation["admin_level"="2"]["ISO3166-1"="DE"];
+relation["admin_level"="2"]["ISO3166-1"="FR"];
+relation["admin_level"="2"]["ISO3166-1"="IT"];
+);
+out body;
+>;
+out skel qt;
+2025-07-12 15:38:39,457 - pipeline - INFO - Making Overpass API request (attempt 1/3)
+2025-07-12 15:38:41,841 - pipeline - INFO - Overpass API request successful
+2025-07-12 15:38:42,377 - pipeline - INFO - Found 3 countries in Overpass response
+2025-07-12 15:38:42,385 - pipeline - INFO - Successfully created GeoDataFrame with 3 countries
+2025-07-12 15:38:42,455 - pipeline - INFO - Saving 3 countries to database
+2025-07-12 15:38:42,468 - pipeline - INFO - Loaded 3 records into countries in 0.01s
+2025-07-12 15:38:42,468 - pipeline - INFO - Successfully saved 3 countries to database
+2025-07-12 15:50:03,378 - pipeline - INFO - Pipeline started - Run ID: overpass_integration_test
+2025-07-12 15:50:03,378 - pipeline - INFO - Start time: 2025-07-12 15:50:03
+2025-07-12 15:50:03,378 - pipeline - INFO - Stage: Database Initialization - Creating database schema
+2025-07-12 15:50:03,378 - pipeline - DEBUG - Stage 'Database Initialization' started at 15:50:03
+2025-07-12 15:50:03,378 - pipeline - INFO - Database tables created successfully
+2025-07-12 15:50:03,378 - pipeline - INFO - Database indexes created successfully
+2025-07-12 15:50:03,378 - pipeline - INFO - Stage completed: Database Initialization (0.0s) - database: data\db\soil_analysis.db
+2025-07-12 15:50:03,378 - pipeline - INFO - Starting country boundaries fetch from Overpass API
+2025-07-12 15:50:03,378 - pipeline - DEBUG - Overpass query: [out:json][timeout:300];
+(
+relation["admin_level"="2"]["ISO3166-1"="DE"];
+relation["admin_level"="2"]["ISO3166-1"="FR"];
+relation["admin_level"="2"]["ISO3166-1"="IT"];
+);
+out body;
+>;
+out skel qt;
+2025-07-12 15:50:03,378 - pipeline - INFO - Making Overpass API request (attempt 1/3)
+2025-07-12 15:50:05,477 - pipeline - INFO - Overpass API request successful
+2025-07-12 15:50:05,986 - pipeline - INFO - Found 3 countries in Overpass response
+2025-07-12 15:50:05,986 - pipeline - DEBUG - Created geometry for FR
+2025-07-12 15:50:05,986 - pipeline - DEBUG - Created geometry for DE
+2025-07-12 15:50:05,986 - pipeline - DEBUG - Created geometry for IT
+2025-07-12 15:50:06,014 - pipeline - INFO - Successfully created GeoDataFrame with 3 countries
+2025-07-12 15:50:06,130 - pipeline - INFO - Saving 3 countries to database
+2025-07-12 15:50:06,144 - pipeline - INFO - Loaded 3 records into countries in 0.01s
+2025-07-12 15:50:06,144 - pipeline - INFO - Successfully saved 3 countries to database
+2025-07-12 15:52:01,439 - pipeline - INFO - Pipeline started - Run ID: overpass_integration_test
+2025-07-12 15:52:01,439 - pipeline - INFO - Start time: 2025-07-12 15:52:01
+2025-07-12 15:52:01,439 - pipeline - INFO - Stage: Database Initialization - Creating database schema
+2025-07-12 15:52:01,439 - pipeline - DEBUG - Stage 'Database Initialization' started at 15:52:01
+2025-07-12 15:52:01,442 - pipeline - INFO - Database tables created successfully
+2025-07-12 15:52:01,442 - pipeline - INFO - Database indexes created successfully
+2025-07-12 15:52:01,442 - pipeline - INFO - Stage completed: Database Initialization (0.0s) - database: data\db\soil_analysis.db
+2025-07-12 15:52:01,442 - pipeline - INFO - Starting country boundaries fetch from Overpass API
+2025-07-12 15:52:01,442 - pipeline - DEBUG - Overpass query: [out:json][timeout:300];
+(
+relation["admin_level"="2"]["ISO3166-1"="DE"];
+relation["admin_level"="2"]["ISO3166-1"="FR"];
+relation["admin_level"="2"]["ISO3166-1"="IT"];
+);
+out body;
+>;
+out skel qt;
+2025-07-12 15:52:01,442 - pipeline - INFO - Making Overpass API request (attempt 1/3)
+2025-07-12 15:52:03,383 - pipeline - INFO - Overpass API request successful
+2025-07-12 15:52:03,861 - pipeline - INFO - Found 3 countries in Overpass response
+2025-07-12 15:52:03,862 - pipeline - DEBUG - Created geometry for FR
+2025-07-12 15:52:03,863 - pipeline - DEBUG - Created geometry for DE
+2025-07-12 15:52:03,863 - pipeline - DEBUG - Created geometry for IT
+2025-07-12 15:52:03,870 - pipeline - INFO - Successfully created GeoDataFrame with 3 countries
+2025-07-12 15:52:03,931 - pipeline - INFO - Saving 3 countries to database
+2025-07-12 15:52:03,933 - pipeline - INFO - Loaded 3 records into countries in 0.00s
+2025-07-12 15:52:03,933 - pipeline - INFO - Successfully saved 3 countries to database

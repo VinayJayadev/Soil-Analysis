@@ -1,0 +1,5 @@
+2025-07-12 18:58:23,224 - performance - INFO - PERFORMANCE - db_create_tables_all: 1.00ms - records: 5
+2025-07-12 18:58:23,227 - performance - INFO - PERFORMANCE - Database Initialization: 4.00ms - database: data\db\soil_analysis.db
+2025-07-12 19:02:15,252 - performance - INFO - PERFORMANCE - Database Initialization: 3.00ms - database: data\db\soil_analysis.db
+2025-07-12 19:02:20,142 - performance - INFO - PERFORMANCE - db_insert_clusters: 9.50ms - records: 30
+2025-07-12 19:02:20,240 - performance - INFO - PERFORMANCE - db_update_soil_samples_cluster: 97.06ms - records: 6,389

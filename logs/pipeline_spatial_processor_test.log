@@ -1,0 +1,16 @@
+2025-07-12 16:22:17,981 - pipeline - INFO - Pipeline started - Run ID: spatial_processor_test
+2025-07-12 16:22:17,981 - pipeline - INFO - Start time: 2025-07-12 16:22:17
+2025-07-12 16:22:17,981 - pipeline - INFO - Stage: Database Initialization - Creating database schema
+2025-07-12 16:22:17,981 - pipeline - DEBUG - Stage 'Database Initialization' started at 16:22:17
+2025-07-12 16:22:17,989 - pipeline - INFO - Database tables created successfully
+2025-07-12 16:22:17,989 - pipeline - INFO - Database indexes created successfully
+2025-07-12 16:22:17,989 - pipeline - INFO - Stage completed: Database Initialization (0.0s) - database: data\db\soil_analysis.db
+2025-07-12 16:22:17,989 - pipeline - ERROR - Error in Query: no such column: updated_at - Context: Failed to get soil samples
+2025-07-12 17:58:20,390 - pipeline - INFO - Pipeline started - Run ID: spatial_processor_test
+2025-07-12 17:58:20,393 - pipeline - INFO - Start time: 2025-07-12 17:58:20
+2025-07-12 17:58:20,393 - pipeline - INFO - Stage: Database Initialization - Creating database schema
+2025-07-12 17:58:20,393 - pipeline - DEBUG - Stage 'Database Initialization' started at 17:58:20
+2025-07-12 17:58:20,407 - pipeline - INFO - Database tables created successfully
+2025-07-12 17:58:20,409 - pipeline - INFO - Database indexes created successfully
+2025-07-12 17:58:20,409 - pipeline - INFO - Stage completed: Database Initialization (0.0s) - database: data\db\soil_analysis.db
+2025-07-12 17:58:20,410 - pipeline - ERROR - Error in Query: no such column: updated_at - Context: Failed to get soil samples

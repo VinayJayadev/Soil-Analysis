@@ -1,0 +1,4 @@
+2025-07-12 15:46:07,845 - pipeline - INFO - Pipeline started - Run ID: debug_overpass
+2025-07-12 15:46:07,845 - pipeline - INFO - Start time: 2025-07-12 15:46:07
+2025-07-12 15:46:07,859 - pipeline - INFO - Making Overpass API request (attempt 1/3)
+2025-07-12 15:46:08,907 - pipeline - INFO - Overpass API request successful
