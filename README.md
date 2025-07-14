@@ -342,7 +342,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Use Cases:**
   - Enables tailored soil analysis for farms, research plots, or administrative regions beyond country boundaries.
 
-These directions ensure the pipeline remains scalable, flexible, and ready for future geospatial analytics needs. 
+- These directions ensure the pipeline remains scalable, flexible, and ready for future geospatial analytics needs. 
 ---
 
 ## 📞 Support
