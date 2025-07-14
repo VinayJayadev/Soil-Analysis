@@ -350,3 +350,18 @@ For questions or issues:
 3. Open an issue with detailed error information
 
 **Happy soil analyzing! 🌱** 
+
+## ⏰ Time Management & Future Priorities
+
+**Time-boxed Implementation:**  
+This project was completed within a strict 4-hour time limit.
+
+**Time Spent:**  
+- Total time spent: **4 hours** (including design, coding, testing, and documentation).
+
+**If Given More Time, I Would Prioritize:**
+- **Automated Testing:** Add comprehensive unit and integration tests for all modules.
+- **User Interface:** Develop a simple web or API interface for easier user interaction.
+- **Performance Optimization:** Profile and optimize spatial joins and clustering for very large datasets.
+- **Advanced Visualizations:** Add interactive dashboards and more granular spatial plots.
+- **Continuous Integration:** Set up CI/CD pipelines for automated testing and deployment. 
