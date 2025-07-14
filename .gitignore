@@ -8,3 +8,9 @@ ARCHITECTURE.md
 ARCHITECTURE_EVOLUTION.md
 IMPLEMENTATION_PLAN.md
 QUICK_START.md 
+logs/*
+!logs/pipeline_pipeline_20250714_102350.log
+!logs/database_pipeline_20250714_102350.log
+!logs/performance_pipeline_20250714_102350.log
+!logs/api_pipeline_20250714_102350.log
+!logs/errors_pipeline_20250714_102350.log 
