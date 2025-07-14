@@ -1,6 +1,0 @@
-2025-07-12 16:22:17,989 - database - INFO - Database create_tables on all - 5 records in 0.01s
-2025-07-12 16:22:17,989 - database - INFO - Database create_indexes on all - 10 records
-2025-07-12 16:22:17,998 - database - INFO - Database connection: closed - data\db\soil_analysis.db
-2025-07-12 17:58:20,406 - database - INFO - Database create_tables on all - 5 records in 0.00s
-2025-07-12 17:58:20,407 - database - INFO - Database create_indexes on all - 10 records
-2025-07-12 17:58:20,411 - database - INFO - Database connection: closed - data\db\soil_analysis.db

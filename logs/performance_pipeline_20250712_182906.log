@@ -1,6 +1,0 @@
-2025-07-12 18:29:06,027 - performance - INFO - PERFORMANCE - Database Initialization: 0.00ms - database: data\db\soil_analysis.db
-2025-07-12 18:29:06,927 - performance - INFO - PERFORMANCE - db_insert_soil_samples: 730.22ms - records: 7,012
-2025-07-12 18:29:06,927 - performance - INFO - PERFORMANCE - data_load_soil_samples: 730.22ms - records: 7,012
-2025-07-12 18:29:06,927 - performance - INFO - PERFORMANCE - Data Loading: 900.07ms - records: 7,012, duration: 0.9s, file: eu_wosis_points.fgb
-2025-07-12 18:29:13,322 - performance - INFO - PERFORMANCE - db_insert_countries: 10.76ms - records: 9
-2025-07-12 18:29:13,324 - performance - INFO - PERFORMANCE - data_load_countries: 10.76ms - records: 9

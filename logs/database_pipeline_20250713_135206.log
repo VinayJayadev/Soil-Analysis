@@ -1,4 +1,0 @@
-2025-07-13 13:52:06,523 - database - INFO - Database create_tables on all - 5 records
-2025-07-13 13:52:06,523 - database - INFO - Database create_indexes on all - 10 records
-2025-07-13 13:52:07,219 - database - INFO - Database insert on soil_samples - 7,012 records in 0.55s
-2025-07-13 13:52:13,244 - database - INFO - Database connection: closed - data\db\soil_analysis.db

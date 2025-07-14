@@ -1,4 +1,0 @@
-2025-07-12 12:14:36,421 - performance - INFO - PERFORMANCE - data_load_test_table: 2500.00ms - records: 1,000
-2025-07-12 12:14:36,421 - performance - INFO - PERFORMANCE - test_operation: 1500.00ms - records: 1,000
-2025-07-12 12:14:36,421 - performance - INFO - PERFORMANCE - Test Stage: 0.00ms - records: 1,000, duration: 2.5
-2025-07-12 12:14:36,430 - performance - INFO - PERFORMANCE - pipeline_total: 0.00ms - records: 1,000, countries: 5
