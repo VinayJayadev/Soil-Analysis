@@ -84,7 +84,6 @@ seqana_swe_challenge/
 │   ├── spatial_processor.py   # Spatial operations
 │   ├── clustering_processor.py # K-means clustering
 │   ├── statistics_calculator.py # Statistical analysis
-│   ├── pipeline_runner.py     # Main pipeline orchestration
 │   └── logging_manager.py     # Logging configuration
 ├── data/                      # Data directory
 │   ├── eu_wosis_points.fgb    # Input soil sample data
@@ -124,19 +123,19 @@ export LOG_LEVEL="INFO"
 ### Tables
 
 1. **soil_samples**: Individual soil sample data
-   - `id`, `latitude`, `longitude`, `soc_percent`, `country_id`, `cluster_id`
+   - `id`, `raw_data_id`, `latitude`, `longitude`, `soc_percent`, `soc_method`, `top_depth_cm`, `bottom_depth_cm`, `sampling_date`, `lab_analysis_date`, `country_id`, `cluster_id`, `clay_fraction`, `created_at`
 
 2. **countries**: European country boundaries
-   - `id`, `name`, `geometry`, `sample_count`
+   - `id`, `name`, `iso_code`, `boundary_geojson`, `sample_count`, `created_at`
 
 3. **clusters**: K-means clustering results
-   - `id`, `country_id`, `cluster_number`, `center_latitude`, `center_longitude`, `sample_count`
+   - `id`, `country_id`, `cluster_number`, `center_latitude`, `center_longitude`, `sample_count`, `created_at`
 
 4. **analysis_results**: Statistical analysis results
-   - `id`, `country_id`, `sampling_method`, `mean_soc`, `variance_soc`, `clay_fraction`
+   - `id`, `country_id`, `sampling_method`, `sample_size`, `soc_mean`, `soc_variance`, `clay_fraction_mean`, `analysis_date`
 
 5. **pipeline_logs**: Execution logs
-   - `id`, `stage`, `status`, `duration`, `records_processed`, `timestamp`
+   - `id`, `run_id`, `stage_name`, `log_level`, `message`, `timestamp`, `duration_ms`, `record_count`, `error_details`
 
 ## 🎨 Visualizations
 
@@ -321,6 +320,29 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **WoSIS** for the soil sample dataset
 - **OpenStreetMap** for map tile data used in visualizations
 
+## 🚀 Architecture Evolution & Future Directions
+
+- **Multi-Tenancy:**
+  - Evolve the pipeline to support multiple clients, each with isolated data and results. This enables SaaS-style deployments and secure, scalable usage by different organizations.
+
+- **Machine Learning Integration:**
+  - Integrate advanced ML models for predictive soil property estimation, anomaly detection, or automated clustering. This can enhance the value of the analysis and enable new features such as soil health prediction.
+
+- **API-Driven Design:**
+  - Expose the pipeline as a RESTful API, allowing clients to submit custom geospatial areas, trigger analyses, and retrieve results programmatically. This supports real-time, on-demand analytics and easy integration with other systems.
+
+### Supporting Client-Submitted Geospatial Areas
+
+- **Custom Area Submission:**
+  - Extend the pipeline to accept user-defined polygons (e.g., GeoJSON) via an API or web interface.
+- **Dynamic Spatial Association:**
+  - Submitted areas are spatially joined with the soil sample database to extract relevant samples for analysis.
+- **On-Demand Analysis:**
+  - The system runs clustering, sampling, and statistics for the user’s area, returning results and visualizations.
+- **Use Cases:**
+  - Enables tailored soil analysis for farms, research plots, or administrative regions beyond country boundaries.
+
+These directions ensure the pipeline remains scalable, flexible, and ready for future geospatial analytics needs. 
 ---
 
 ## 📞 Support
