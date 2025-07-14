@@ -212,12 +212,12 @@ ORDER BY cluster_count DESC;
 SELECT 
     c.name as country_name,
     ar.sampling_method,
-    ar.mean_soc,
-    ar.variance_soc,
-    ar.clay_fraction
+    ar.soc_mean,
+    ar.soc_variance,
+    ar.clay_fraction_mean
 FROM analysis_results ar
 JOIN countries c ON ar.country_id = c.id
-ORDER BY ar.mean_soc DESC;
+ORDER BY ar.soc_mean DESC;
 ```
 
 ## 🔍 Key Insights
