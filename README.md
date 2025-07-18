@@ -365,3 +365,47 @@ This project was completed within a strict 4-hour time limit.
 - **Performance Optimization:** Profile and optimize spatial joins and clustering for very large datasets.
 - **Advanced Visualizations:** Add interactive dashboards and more granular spatial plots.
 - **Continuous Integration:** Set up CI/CD pipelines for automated testing and deployment. 
+
+## Docker Usage
+
+You can run the soil analysis pipeline using Docker. This is optional, but provides a reproducible environment for running the code.
+
+### Build the Docker Image
+
+From the project root directory, run:
+
+```sh
+docker build -t soil-analysis .
+```
+
+### Run the Pipeline in a Container
+
+To run the pipeline with default settings:
+
+```sh
+docker run --rm soil-analysis
+```
+
+#### (Optional) Mount Data and Output Directories
+
+To persist input and output files between runs, mount your local `data` and `output` directories:
+
+```sh
+docker run --rm -v "${PWD}/data:/app/data" -v "${PWD}/output:/app/output" soil-analysis
+```
+
+#### (Optional) Pass Custom Arguments
+
+You can override the default arguments in `main.py`:
+
+```sh
+docker run --rm soil-analysis --data-file data/eu_wosis_points.fgb --output-dir output
+```
+
+Or, with volume mounts:
+
+```sh
+docker run --rm -v "${PWD}/data:/app/data" -v "${PWD}/output:/app/output" soil-analysis --data-file data/eu_wosis_points.fgb --output-dir output
+```
+
+---
