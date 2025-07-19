@@ -368,7 +368,7 @@ This project was completed within a strict 4-hour time limit.
 
 ## Docker Usage
 
-You can run the soil analysis pipeline using Docker. This is optional, but provides a reproducible environment for running the code.
+You can run the soil analysis pipeline using Docker. 
 
 ### Build the Docker Image
 
