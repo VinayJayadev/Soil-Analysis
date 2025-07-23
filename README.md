@@ -11,7 +11,7 @@ This pipeline processes **7,012 soil samples** from European countries, associat
 - **7-Stage Pipeline**: Database initialization → Data loading → API integration → Spatial association → Clustering → Statistics → Reporting
 - **Real Overpass API Integration**: Fetches European country boundaries dynamically
 - **SQLite Database**: Normalized storage with spatial indexing
-- **K-means Clustering**: 30 clusters across 8 countries for representative sampling
+- **K-means Clustering**: 40 clusters across 8 countries for representative sampling
 - **Comprehensive Logging**: Detailed execution logs and performance metrics
 - **Visualization Suite**: Geographic maps, cluster analysis, and statistical plots
 - **Production Ready**: Modular design with error handling and validation
