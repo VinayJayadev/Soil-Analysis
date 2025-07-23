@@ -20,7 +20,7 @@ This pipeline processes **7,012 soil samples** from European countries, associat
 
 - **Total Samples**: 7,012 soil samples processed
 - **Spatial Coverage**: 91.1% of samples successfully assigned to countries
-- **Clusters Created**: 30 clusters across 8 European countries
+- **Clusters Created**: 40 clusters across 8 European countries
 - **Countries Covered**: Italia, España, France, Nederland, Polska, België, Deutschland, Česko
 - **Average SOC%**: 3.53% (range: 0.41% - 30.81%)
 
